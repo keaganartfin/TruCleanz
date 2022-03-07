@@ -1,0 +1,28 @@
+[
+    {
+        "id":1,
+        "img":"https://s3.amazonaws.com/mentoring.redesign/s3fs-public/SBA-PoweredBy-FINAL_1.png",
+        "title":"us small business administration"
+    },
+    {
+        "id":2,
+        "img":"https://aiccok.org/wp-content/uploads/2018/02/aicco-logo-sl-2.png",
+        "title":"american indian chamber of commerce oklahoma member"
+    },
+    {
+        "id":3,
+        "img":"https://i0.wp.com/parkwoodpropertyinspections.com/wp-content/uploads/2018/01/veteran-owned-small-business.jpg?resize=375%2C336&ssl=1",
+        "title":"veteran owned small business"
+    },
+    {
+        "id":4,
+        "img":"https://www.centerforgreenschools.org/sites/default/files/cfgs-logo.png",
+        "title":"the center for green schools"
+
+    },
+    {
+        "id":5,
+        "img":"https://www.garageliving.com/hs-fs/hubfs/300xNxgl-na-made-us-x2.png.pagespeed.ic.9aVeEAuae4.png?width=300&height=300&name=300xNxgl-na-made-us-x2.png.pagespeed.ic.9aVeEAuae4.png",
+        "title":"locally owned and operated"
+    }
+]

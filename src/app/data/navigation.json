@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "linkText": "Home",
+        "child": false
+    },
+    {
+        "id": 3,
+        "link": "/faqs",
+        "linkText": "FAQ's",
+        "child": false
+    },
+    {
+        "id": 5,
+        "link": "/portfolio",
+        "linkText": "Product Information",
+        "child": false
+    },
+    {
+        "id": 7,
+        "link": "/shop",
+        "linkText": "Our Products",
+        "child": false,
+        "submenu": [
+            {
+                "id": 61,
+                "link": "/shop",
+                "linkText": "Products"
+            },
+            {
+                "id": 62,
+                "link": "/product-details/1",
+                "linkText": "Product Details"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "link": "/contact",
+        "linkText": "Contact",
+        "child": false
+    }
+]

@@ -1,0 +1,65 @@
+<app-header-one></app-header-one>
+<app-breadcrumb></app-breadcrumb>
+<section class="client-section">
+
+    <div class="container">
+
+    <h1>Your List</h1>
+
+<div class="shopping-cart">
+
+  <div class="column-labels">
+    <label class="product-image">Image</label>
+    <label class="product-details">Product</label>
+    <label class="product-quantity">Quantity (units)</label>
+    <label class="product-removal">Remove</label>
+    <label class="product-line-price">Total</label>
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img src="../../../../assets/img/products/blackmask.png">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Premium Black Masks</div>
+      <p class="product-description">TruSafeTM line of premium Bacterial Filtration Efficiency single use masks continues to meet the need of consumers</p>
+    </div>
+    <div class="product-quantity">
+      <input type="number" value="2" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img src="../../../../assets/img/products/handsanitizer.jpg">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Hand Sanitizer (16oz) Bottles</div>
+      <p class="product-description">TruSafe line of hand sanitizers is the perfect solution to help you get germs when soap and water are not readily available. TruSafe is a topical antiseptic that kills 99.9% of the most common illness-causing germs.</p>
+    </div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+  </div>
+      
+      <button class="checkout">Checkout</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<app-footer [layout]="classname" [logo]="ftlogo" [shape]="ftshape" [shape2]="ftshape2" [shapeclass]="ftshapeclass" [shape2class]="ftshape2class"></app-footer>

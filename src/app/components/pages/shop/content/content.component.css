@@ -1,0 +1,15 @@
+.product-desc {
+    padding: 10px;
+}
+
+a:hover {
+    color: gray!important;
+}
+
+.product-img {
+    margin-bottom: 0 !important;
+}
+
+.product-img img {
+    height: 270px;
+}

@@ -1,0 +1,132 @@
+<section class="advanced-tab section-gap">
+    <div class="container">
+        <!-- Tabs Buttons -->
+        <div class="tab-buttons">
+            <div ngbNav #nav="ngbNav" class="nav nav-tabs" id="nav-tab" role="tablist">
+                <li [ngbNavItem]="1">
+                    <a ngbNavLink>Our Mission & Vision</a>
+                    <ng-template ngbNavContent>
+                        <div class="tab-text-block left-image with-left-circle">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6 col-md-10">
+                                    <div class="block-image">
+                                        <img src="assets/img/tab-block.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-10">
+                                    <div class="block-text">
+                                        <h2 class="title">Leading by Example</h2>
+                                        <p>
+                                            Our people and their dedication set us apart from others. The Inside Sales/Customer Service group
+                                             averages 10+ years experience with heat shrink tubing products and the Raychem line. <br><br> Additionally
+                                              we have inside and outside Sales Engineers with similar experience that can help find the
+                                               correct product for your application. Our Sales Engineers are located throughout the Midwest
+                                                and we can arrange to have someone visit your facility if needed.
+                                        </p>
+                                        <ul>
+                                            <li *ngFor="let item of list">
+                                                <i class="fas fa-check"></i>
+                                                {{item.text}}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </li>
+                <li [ngbNavItem]="2">
+                    <a ngbNavLink>Company History</a>
+                    <ng-template ngbNavContent>
+                        <div class="tab-text-block right-image with-right-circle">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6 col-md-10 order-2 order-lg-1">
+                                    <div class="block-text">
+                                        <h2 class="title">Over 50 Years Serving the Midwest</h2>
+                                        <p>
+                                            Since 1944, Stranco Products has grown to the largest distributor of heat shrinkable tubing
+                                             products and electrical insulation in the Midwest. <br><br> As an authorized TE Connectivity / Raychem
+                                              distributor, we stock their full line of tubing products, molded parts, identification products,
+                                               interconnect devices and wire & cable.
+                                        </p>
+                                        <ul>
+                                            <li *ngFor="let item of list">
+                                                <i class="fas fa-check"></i>
+                                                {{item.text}}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-10 order-1 order-lg-2">
+                                    <div class="block-image">
+                                        <img src="assets/img/tab-block.jpg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </li>
+                <li [ngbNavItem]="3">
+                    <a ngbNavLink>Business Goals</a>
+                    <ng-template ngbNavContent>
+                        <div class="tab-text-block left-image with-left-circle">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6 col-md-10">
+                                    <div class="block-image">
+                                        <img src="assets/img/tab-block.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-10">
+                                    <div class="block-text">
+                                        <h2 class="title">What we do best</h2>
+                                        <p>
+                                            Stranco Products is certified to both ISO 9000 and QS-9000 certifications since November 2004. <br> <br>
+                                             A strong commitment to quality has been established and maintained as we serve the automotive,
+                                              medical, electronics, appliance, aerospace, military and many other industries.
+                                        </p>
+                                        <ul>
+                                            <li *ngFor="let item of list">
+                                                <i class="fas fa-check"></i>
+                                                {{item.text}}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </li>
+                <li [ngbNavItem]="4">
+                    <a ngbNavLink>Facility</a>
+                    <ng-template ngbNavContent>
+                        <div class="tab-text-block right-image with-right-circle">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-lg-6 col-md-10 order-2 order-lg-1">
+                                    <div class="block-text">
+                                        <h2 class="title">Where the magic happens</h2>
+                                        <p>
+                                            Our 40,000 sq ft office and warehouse is located in Bolingbrook, Illinois (suburb of Chicago). <br> <br>
+                                             This Midwest location allows for quick deliveries and low freight costs.
+                                        </p>
+                                        <ul>
+                                            <li *ngFor="let item of list">
+                                                <i class="fas fa-check"></i>
+                                                {{item.text}}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-10 order-1 order-lg-2">
+                                    <div class="block-image">
+                                        <img src="assets/img/tab-block.jpg" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </li>
+            </div>
+            <div [ngbNavOutlet]="nav"></div>
+        </div>
+    </div>
+</section>

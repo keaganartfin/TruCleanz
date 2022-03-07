@@ -1,0 +1,483 @@
+[
+    {
+        "id": 1,
+        "title": "Hand Sanitizer Gel",
+        "image": [
+            "assets/img/products/handsanitizer.jpg"
+        ],
+        
+        "category": [
+            1,
+            2
+        ],
+        "tags": [
+            1,
+            2,
+            3
+        ],
+        "shortdescription": "<ul> <li> Size UOM: <b>16oz with lotion pump</b> </li> <li> Case PK: <b>24 units</b> </li> <li> Case DIM: <b>8.875 in x 23.25 in x 7.125 in</b> </li> <li> Ships From: <b>Bartlesville, OK | Oak Forest, IL</b> </li> <li> MOQ: <b>1 Case</b> </li> <li> Case wgt (LBS): <b>30 lbs</b> </li> <li> Pallet TI x HI: <b>8 x 5</b> </li> <li> Recommended MSRP: <b>$4.49</b> </li> <li> RFQ: <b>500 units</b> </li> </ul>",
+        "productdescription": "<p> Designed by a former food and beverage executive to provide a clean fragrance free solution when soap and water is not available. Pharmaceutical grade alcohol made from Midwest Corn. Each batch tested to ensure potency and safety. But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound. </p><p>  TruSafe line of hand sanitizers is the perfect solution to help you get germs when soap and water are not readily available. TruSafe is a topical antiseptic that kills 99.9% of the most common illness-causing germs.  </p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Smart Man Jacket",
+        "image": [
+            "assets/img/shop/02.png"
+        ],
+        
+        "category": [
+            3,
+            4
+        ],
+        "tags": [
+            4,
+            5,
+            6
+        ],
+        "shortdescription": "<p> <ul> <li> Size UOM: 16oz with lotion pump </li> <li> Case PK: 24 units </li> <li> Case DIM: 8.875 in x 23.25 in x 7.125 in </li> <li> Ships From: Bartlesville, OK | Oak Forest, IL </li> <li> MOQ: 1 Case </li> <li> Case wgt (LBS): 30 lbs </li> <li> Pallet TI x HI: 8 ft x 5 ft </li> <li> Recommended MSRP: $4.49 </li> </ul> </p>",
+        "productdescription": "<p>    </p><p>    </p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ],
+        "reviews":[
+            {
+                "id":1,
+                "user":[1],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[
+                    {
+                        "id":1.1,
+                        "user":[2],
+                        "rating":5,
+                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "user":[3],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Smart Man Jacket",
+        "image": [
+            "assets/img/shop/03.png"
+        ],
+        
+        "category": [
+            5,
+            6
+        ],
+        "tags": [
+            7,
+            8,
+            1
+        ],
+        "shortdescription": "<p> <ul> <li> Size UOM: 16oz with lotion pump </li> <li> Case PK: 24 units </li> <li> Case DIM: 8.875 in x 23.25 in x 7.125 in </li> <li> Ships From: Bartlesville, OK | Oak Forest, IL </li> <li> MOQ: 1 Case </li> <li> Case wgt (LBS): 30 lbs </li> <li> Pallet TI x HI: 8 ft x 5 ft </li> <li> Recommended MSRP: $4.49 </li> </ul> </p>",
+        "productdescription": "<p>  Designed by a former food and beverage executive to provide a clean fragrance free solution when soap and water is not available. Pharmaceutical grade alcohol made from Midwest Corn. Each batch tested to ensure potency and safety. But I must explain to you how all this mistaken idea of denouncing pleasure praising pain was born and I will give you complete account of the system expound. </p><p>  TruSafe line of hand sanitizers is the perfect solution to help you get germs when soap and water are not readily available. TruSafe is a topical antiseptic that kills 99.9% of the most common illness-causing germs.  </p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ],
+        "reviews":[
+            {
+                "id":1,
+                "user":[1],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[
+                    {
+                        "id":1.1,
+                        "user":[2],
+                        "rating":5,
+                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "user":[3],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Smart Man Jacket",
+        "image": [
+            "assets/img/shop/04.png"
+        ],
+        
+        "category": [
+            7,
+            1
+        ],
+        "tags": [
+            2,
+            3,
+            4
+        ],
+        "shortdescription": "<p> <ul> <li> Size UOM: 16oz with lotion pump </li> <li> Case PK: 24 units </li> <li> Case DIM: 8.875 in x 23.25 in x 7.125 in </li> <li> Ships From: Bartlesville, OK | Oak Forest, IL </li> <li> MOQ: 1 Case </li> <li> Case wgt (LBS): 30 lbs </li> <li> Pallet TI x HI: 8 ft x 5 ft </li> <li> Recommended MSRP: $4.49 </li> </ul> </p>",
+        "productdescription": "<p>    </p><p>    </p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ],
+        "reviews":[
+            {
+                "id":1,
+                "user":[1],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[
+                    {
+                        "id":1.1,
+                        "user":[2],
+                        "rating":5,
+                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "user":[3],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Smart Man Jacket",
+        "image": [
+            "assets/img/shop/05.png"
+        ],
+        
+        "category": [
+            2,
+            3
+        ],
+        "tags": [
+            5,
+            6,
+            7
+        ],
+        "shortdescription": "<p> <ul> <li> Size UOM: 16oz with lotion pump </li> <li> Case PK: 24 units </li> <li> Case DIM: 8.875 in x 23.25 in x 7.125 in </li> <li> Ships From: Bartlesville, OK | Oak Forest, IL </li> <li> MOQ: 1 Case </li> <li> Case wgt (LBS): 30 lbs </li> <li> Pallet TI x HI: 8 ft x 5 ft </li> <li> Recommended MSRP: $4.49 </li> </ul> </p>",
+        "productdescription": "<p>    </p><p>    </p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ],
+        "reviews":[
+            {
+                "id":1,
+                "user":[1],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[
+                    {
+                        "id":1.1,
+                        "user":[2],
+                        "rating":5,
+                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "user":[3],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Smart Man Jacket",
+        "image": [
+            "assets/img/shop/06.png"
+        ],
+        
+        "category": [
+            4,
+            5
+        ],
+        "tags": [
+            8,
+            1,
+            2
+        ],
+        "shortdescription": "<p> <ul> <li> Size UOM: 16oz with lotion pump </li> <li> Case PK: 24 units </li> <li> Case DIM: 8.875 in x 23.25 in x 7.125 in </li> <li> Ships From: Bartlesville, OK | Oak Forest, IL </li> <li> MOQ: 1 Case </li> <li> Case wgt (LBS): 30 lbs </li> <li> Pallet TI x HI: 8 ft x 5 ft </li> <li> Recommended MSRP: $4.49 </li> </ul> </p>",
+        "productdescription": "<p>    </p><p>    </p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ],
+        "reviews":[
+            {
+                "id":1,
+                "user":[1],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[
+                    {
+                        "id":1.1,
+                        "user":[2],
+                        "rating":5,
+                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "user":[3],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Smart Man Jacket",
+        "image": [
+            "assets/img/shop/07.png"
+        ],
+        
+        "category": [
+            6,
+            7
+        ],
+        "tags": [
+            3,
+            4,
+            5
+        ],
+        "shortdescription": "<p> <ul> <li> Size UOM: 16oz with lotion pump </li> <li> Case PK: 24 units </li> <li> Case DIM: 8.875 in x 23.25 in x 7.125 in </li> <li> Ships From: Bartlesville, OK | Oak Forest, IL </li> <li> MOQ: 1 Case </li> <li> Case wgt (LBS): 30 lbs </li> <li> Pallet TI x HI: 8 ft x 5 ft </li> <li> Recommended MSRP: $4.49 </li> </ul> </p>",
+        "productdescription": "<p>    </p><p>    </p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ],
+        "reviews":[
+            {
+                "id":1,
+                "user":[1],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[
+                    {
+                        "id":1.1,
+                        "user":[2],
+                        "rating":5,
+                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "user":[3],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Smart Man Jacket",
+        "image": [
+            "assets/img/shop/08.png"
+        ],
+        
+        "category": [
+            1,
+            2
+        ],
+        "tags": [
+            6,
+            7,
+            8
+        ],
+        "shortdescription": "<p> <ul> <li> Size UOM: 16oz with lotion pump </li> <li> Case PK: 24 units </li> <li> Case DIM: 8.875 in x 23.25 in x 7.125 in </li> <li> Ships From: Bartlesville, OK | Oak Forest, IL </li> <li> MOQ: 1 Case </li> <li> Case wgt (LBS): 30 lbs </li> <li> Pallet TI x HI: 8 ft x 5 ft </li> <li> Recommended MSRP: $4.49 </li> </ul> </p>",
+        "productdescription": "<p>    </p><p>    </p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ],
+        "reviews":[
+            {
+                "id":1,
+                "user":[1],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[
+                    {
+                        "id":1.1,
+                        "user":[2],
+                        "rating":5,
+                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "user":[3],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Smart Man Jacket",
+        "image": [
+            "assets/img/shop/09.png"
+        ],
+        
+        "category": [
+            3,
+            4
+        ],
+        "tags": [
+            1,
+            2,
+            3
+        ],
+        "shortdescription": "<p> <ul> <li> Size UOM: 16oz with lotion pump </li> <li> Case PK: 24 units </li> <li> Case DIM: 8.875 in x 23.25 in x 7.125 in </li> <li> Ships From: Bartlesville, OK | Oak Forest, IL </li> <li> MOQ: 1 Case </li> <li> Case wgt (LBS): 30 lbs </li> <li> Pallet TI x HI: 8 ft x 5 ft </li> <li> Recommended MSRP: $4.49 </li> </ul> </p>",
+        "productdescription": "<p>    </p><p>    </p>",
+        "additional": [
+            {
+                "title": "Weight",
+                "text": "6.59 kg"
+            },
+            {
+                "title": "Dimensions",
+                "text": "43.31 x 26.70 x 64.50 cm"
+            },
+            {
+                "title": "Color",
+                "text": "Red, Black, Blue"
+            }
+        ],
+        "reviews":[
+            {
+                "id":1,
+                "user":[1],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[
+                    {
+                        "id":1.1,
+                        "user":[2],
+                        "rating":5,
+                        "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime"
+                    }
+                ]
+            },
+            {
+                "id":2,
+                "user":[3],
+                "rating":4,
+                "comment":"Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime",
+                "replies":[]
+            }
+        ]
+    }
+]

@@ -7,11 +7,11 @@
                         <span class="title-tag">Drop A Message</span>
                         <h2 class="title">Don’t Hesited To Contact Us</h2>
                     </div>
-                    <form (submit)="sendEmail($event)">
+                    <form action="https://formspree.io/f/xpzbrvjw" method="POST">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="input-group mb-30">
-                                    <input type="text" placeholder="Your Business Name" name="from_name" required>
+                                    <input type="text" placeholder="Your Full Name" name="from_name" required>
                                     <span class="icon"><i class="far fa-user-circle"></i></span>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="input-group textarea mb-30">
-                                    <textarea placeholder="Any Additional Information" name="message_html"></textarea>
+                                    <textarea placeholder="Write Message" name="message_html"></textarea>
                                     <span class="icon"><i class="far fa-pencil"></i></span>
                                 </div>
                             </div>

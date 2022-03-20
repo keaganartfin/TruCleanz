@@ -1,5 +1,6 @@
 import { Component, AfterContentInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { SessionService } from 'src/app/session.service';
 import shop from '../../../../data/shop/shop.json';
 import authors from '../../../../data/team.json';
 
@@ -10,7 +11,15 @@ import authors from '../../../../data/team.json';
 })
 export class ContentComponent implements AfterContentInit {
 
-  constructor(private router: ActivatedRoute) { }
+  msg:string;
+
+  constructor(private router: ActivatedRoute, public ss: SessionService) { }
+
+  clickEvent(){
+    this.msg='Added to Quote';
+    return this.msg;
+  }
+
   public shopdetails = shop;
   public authors = authors;
 
@@ -32,6 +41,16 @@ export class ContentComponent implements AfterContentInit {
   decrement() {
     this.counter -= 1;
   }
+  addToCart(event: Event, item: object) {
+    event.preventDefault();
+
+    this.ss.add(item, this.counter);
+  }
+
+  setCounter(event: any) {
+    // this.counter = event.target.value;
+  }
+
   // Settings
   settings = {
     slidesToShow: 1,
@@ -69,5 +88,9 @@ export class ContentComponent implements AfterContentInit {
   ngAfterContentInit(): void {
     this.setPost(this.router.snapshot.params.id);
   }
+
+  public showMyMessage = false
+
+
 
 }

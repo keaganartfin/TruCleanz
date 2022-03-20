@@ -145,6 +145,74 @@
             padding: 70px 0;
             margin-bottom: -170px;
             position: relative;
+            
+                .quantity-input {
+                    display: flex;
+                    margin-bottom: 0.5rem;
+                    width:100%;
+                    @media #{$xsm} {
+                        margin-right: 20px;
+                    }
+                    .title {
+                        margin-left: 0;
+                        margin-right: auto;
+                    }
+                    .input-box {
+                        display: flex;
+                        width: fit-content;
+                        margin-right: 1rem;
+                        @media #{$xsm} {
+                            margin-right: 20px;
+                        }
+                        .quantity-down,
+                        .quantity-up,
+                        input {
+                            padding: 0;
+                            height: 33px;
+                            width: 45px;
+                            border: 1px solid #dddddd;
+                            text-align: center;
+                            cursor: pointer;
+                            line-height: 33px;
+                            font-size: 14px;
+                            color: $secondary-color;
+
+                        }
+                    }
+                    .remove {
+                        color: rgb(211, 12, 12);
+                        &:hover {
+                            cursor: pointer;
+                            color:rgb(241, 14, 14);
+                        }
+                    }
+
+                }
+
+                button {
+                    padding: 8px 30px;
+                    background-color: $primary-color;
+                    border: none;
+                    font-weight: 700;
+                    color: $white;
+                    font-size: 14px;
+                    font-family: $ssp;
+                    @include transition(0.3s);
+
+                    @media #{$lg} {
+                        padding: 8px 25px;
+                    }
+
+                    &:hover {
+                        background-color: $secondary-color;
+                    }
+                    .disabled {
+                        &:hover {
+                            cursor:not-allowed;
+                        }
+                    }
+                }
+            
         }
 
         .contact-map {

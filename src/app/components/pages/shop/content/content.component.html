@@ -6,7 +6,7 @@
                     <div class="col-lg-3 col-6 col-tiny-12">
                         <div class="product-search">
                             <form>
-                                <input type="search" placeholder="Search">
+                                <input type="search" placeholder="Search Keywords">
                                 <button type="submit"><i class="far fa-search"></i></button>
                             </form>
                         </div>
@@ -28,23 +28,12 @@
             </div>
             <div class="col-lg-9 order-2 order-lg-2">
                 <div class="product-loop row">
-                    <div class="col-lg-4 col-sm-6" *ngFor="let item of shopblock | paginate: { itemsPerPage: 20, currentPage: page }">
+                    <div class="col-lg-4 col-sm-6" *ngFor="let item of shopblock | paginate: { itemsPerPage: 6, currentPage: page }">
                         <div class="single-product">
                             <div class="product-img">
-                                <img [src]="item.image[0]" [alt]="item.title">
-                                <div class="product-action">
-                                    <a href="#"><i class="far fa-shopping-cart"></i></a>
-                                    <a href="#"><i class="far fa-heart"></i></a>
-                                </div>
+                                <img a routerLink="/product-details/{{item.id}}" [src]="item.image[0]" [alt]="item.title">
                             </div>
                             <div class="product-desc">
-                                <!-- <ul class="rating">
-                                    <ngb-rating [max]="5" [(rate)]="item.rating" [readonly]="true">
-                                        <ng-template let-fill="fill" let-index="index">
-                                            
-                                        </ng-template>
-                                    </ngb-rating>
-                                </ul> -->
                                 <h5 class="title"><a routerLink="/product-details/{{item.id}}">{{item.title}}</a></h5>
                             </div>
                         </div>

@@ -1,4 +1,4 @@
- <section class="blog-section section-gap-top" *ngFor="let item of blogdetails">
+<section class="blog-section section-gap-top" *ngFor="let item of blogdetails">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -13,7 +13,7 @@
                                 <a routerLink="/blog/author/{{author.id}}" *ngFor="let author of getAuthor(item.author)">{{author.name}}</a>
                             </li>
                             <li><i class="far fa-calendar-alt"></i><a href="#">{{item.postdate}}</a></li>
-                            <li><i class="far fa-comments"></i><a href="#">Comments ({{item.reviews.length}})</a></li>
+                            <!-- <li><i class="far fa-comments"></i><a href="#">Comments ({{item.reviews.length}})</a></li> -->
                         </ul>
                     </div>
                     <div class="post-content">
@@ -85,7 +85,7 @@
                     <h3 class="title">Comments</h3>
                     <!-- Comments List -->
                     <ul class="comment-list">
-                        <li *ngFor="let review of item.reviews">
+                        <!-- <li *ngFor="let review of item.reviews">
                             <div class="author-img" *ngFor="let user of getAuthor(review.user)">
                                 <img [src]="user.img" [alt]="user.name">
                             </div>
@@ -107,7 +107,7 @@
                                     </div>
                                 </li>
                             </ul>
-                        </li>
+                        </li> -->
                     </ul>
                     <!-- Comments form -->
                     <div class="comment-form">

@@ -32,36 +32,66 @@
             <div class="row no-gutters justify-content-center">
                 <div class="col-10">
                     <div class="section-title text-center mb-40">
-                        <h2 class="title">Don’t Hesited To Contact Us</h2>
+                        <h2 class="title">Get a Quote!</h2>
                     </div>
-                    <form (submit)="sendEmail($event)">
+                    <form action="https://formspree.io/f/xpzbrvjw" method="POST">
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="input-group mb-30">
-                                    <input type="text" placeholder="Your Business Name" name="from_name" required>
+                                    <input type="text" placeholder="Your Full Name" name="name" required>
                                     <span class="icon"><i class="far fa-user-circle"></i></span>
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="input-group mb-30">
-                                    <input type="email" placeholder="Your Email Address" name="to_email" required>
+                                    <input type="email" placeholder="Your Email Address" name="email" required>
                                     <span class="icon"><i class="far fa-envelope-open"></i></span>
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="input-group mb-30">
-                                    <input type="text" placeholder="Your Phone" name="to_phone" required>
+                                    <input type="text" placeholder="Your Phone" name="phone" required>
                                     <span class="icon"><i class="far fa-phone"></i></span>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="input-group textarea mb-30">
-                                    <textarea placeholder="Additional Information" name="message_html"></textarea>
+                                    <textarea placeholder="Write Message" name="message"></textarea>
                                     <span class="icon"><i class="far fa-pencil"></i></span>
                                 </div>
                             </div>
+                            <div class="col-12">
+                                <div class="input-group textarea mb-30">
+                                    <textarea style="display: none" [value]="getProcessedCart()" name="cart"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12 cartbox">
+                                <div *ngIf="this.ss.cartIsEmpty()"><h2>You have no items in your cart.</h2><br/></div>
+                                <div class="cartlabel" *ngIf="!this.ss.cartIsEmpty()"><h2>Your Cart</h2></div>
+                                <div *ngFor="let data of this.ss.getCartAsArray()">
+                                        <div class="quantity-input">
+                                            
+                                            <div class="title">
+                                                    <h4>{{data.item.title}}</h4>
+                                            </div>
+
+                                            <div class="input-box">
+                                                <div class="quantity-down" id="quantityDown" (click)="decrement(data)">
+                                                    <i class="fal fa-minus"></i>
+                                                </div>
+                                                <input id="quantity" type="text" value="{{data.quantity}}" name="quantity">
+                                                <div class="quantity-up" id="quantityUP" (click)="increment(data)">
+                                                    <i class="fal fa-plus"></i>
+                                                </div>
+                                            </div>
+                                            <div class="remove" id="remove" (click)="removeItem(data)">
+                                                <i class="fa fa-trash"></i>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
                             <div class="col-12 text-center">
-                                <button type="submit" class="main-btn">Send Message</button>
+                                <button [disabled]="this.ss.cartIsEmpty()" type="submit" [class]="this.ss.cartIsEmpty() ? 'main-btn disabled' : 'main-btn'">Request Quote</button>
                             </div>
                         </div>
                     </form>
@@ -69,9 +99,9 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid container-1600">
+    <!-- <div class="container-fluid container-1600">
         <div class="contact-map">
-            <!-- <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d91364.00338430358!2d-73.9756152824982!3d40.698190064837625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1598380219280!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+            <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d91364.00338430358!2d-73.9756152824982!3d40.698190064837625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1598380219280!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
-    </div>
+    </div> -->
 </section>

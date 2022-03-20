@@ -1,9 +1,13 @@
 [
     {
         "id": 1,
-        "title": "Hand Sanitizer Gel",
+        "title": "Hand Sanitizer Gel (16oz) Case",
         "image": [
             "assets/img/products/handsanitizer.jpg"
+        ],
+
+        "cartdesc": [
+            "TruSafe is a topical antiseptic that kills 99.9% of the most common illness-causing germs."
         ],
         
         "category": [

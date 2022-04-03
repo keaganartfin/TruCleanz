@@ -140,10 +140,10 @@ pagination-template .ngx-pagination li a {
 }
 pagination-template .ngx-pagination li.current {
 	color: #fff;
-	border: 2px solid #ff4a17;
-	background-color: #ff4a17;
+	border: 2px solid #ea9b6c;
+	background-color: #ea9b6c;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 800;
 	padding: 15px 21px!important;
 	margin: 0;
 	position: relative;

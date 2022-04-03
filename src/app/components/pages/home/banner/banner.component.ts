@@ -10,7 +10,7 @@ export class BannerComponent implements OnInit {
   constructor() { }
   banner = [
     {
-      img: "assets/img/banner/banner.jpg",
+      img: "assets/img/bg.jpg",
       subtitle: "Value in Cleanliness",
       title: "Making The Difference <br> That You Can See & Feel"
     }

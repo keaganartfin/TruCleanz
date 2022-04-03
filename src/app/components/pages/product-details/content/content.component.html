@@ -18,7 +18,9 @@
                 <div class="col-lg-4">
                     <div class="product-summary">
                         <h3 class="product-name">{{item.title}}</h3>                        
-                        <div class="short-description" [innerHtml]="item.shortdescription">
+                        <div class="short-description" [innerHtml]="item.shortdescription"></div>
+                        <div class="postscript" style="padding-top: 5px;">
+                            <p>**Quantity is quoted by the case unless otherwise specified.**</p>
                         </div>
                         <div class="add-to-cart-form">
                             <form>
@@ -32,18 +34,12 @@
                                     </div>
                                 </div>
                                 <div class="add-to-cart-btn">
-                                    <button type="submit" (click)="addToCart($event, item); clickEvent()">Add To Cart</button>
-                                    <p class="addtoquote">{{msg}}</p>
+                                    <button type="submit" (click)="addToCart($event, item); clickEvent()">Add To Quote</button>
+                                    <p class="addtoquote"><b>{{msg}}</b></p>
                                 </div>
                             </form>
                         </div>
-                        <ul class="product-share">
-                            <li class="title">Share Now:</li>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                        </ul>
+                        
                     </div>
                 </div>
                 <div class="col-12">

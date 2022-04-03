@@ -16,7 +16,7 @@ export class ContentComponent implements AfterContentInit {
   constructor(private router: ActivatedRoute, public ss: SessionService) { }
 
   clickEvent(){
-    this.msg='Added to Quote';
+    this.msg='Item Added';
     return this.msg;
   }
 

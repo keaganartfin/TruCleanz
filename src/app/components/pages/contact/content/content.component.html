@@ -1,40 +1,39 @@
 <section class="contact-section contact-page section-gap-top">
     <div class="container">
-        <div class="contact-info">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 order-2 order-lg-1">
-                    <div class="illustration-img text-center">
-                        <img src="assets/img/illustration/man-with-earth-02.png" alt="img">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-10 order-1 order-lg-2">
-                    <div class="contact-info-content">
-                        <div class="section-title left-border mb-40">
-                            <span class="title-tag">Get In Touch</span>
-                            <h2 class="title">Need Any Help For Business & Consulting</h2>
-                        </div>
-                        <p>
-                            But I must explain to you how all this mistaken idea of denouncing pleasure and praising
-                            pain was
-                        </p>
-                        <ul>
-                            <li class="phone">
-                                <a href="tel:+0123456789"><i class="far fa-phone"></i>+012 (345) 6789</a>
-                            </li>
-                            <li><i class="far fa-envelope-open"></i><a href="#">support@example.com</a></li>
-                            <li><i class="far fa-map-marker-alt"></i>Broklyn Street USA</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="contact-form grey-bg">
             <div class="row no-gutters justify-content-center">
                 <div class="col-10">
                     <div class="section-title text-center mb-40">
-                        <h2 class="title">Get a Quote!</h2>
+                        <h2 class="title">Get Your Quote</h2>
                     </div>
-                    <form action="https://formspree.io/f/xpzbrvjw" method="POST">
+                    <div class="col-12 cartbox">
+                        <div class="nocart" *ngIf="this.ss.cartIsEmpty()"><h2>You have no items in your cart</h2><br/>
+                        <a href="/shop"><h4 class="catalog">Check out our catalog <i class="fal fa-arrow-right"></i></h4></a></div>
+                        <div class="cartlabel" *ngIf="!this.ss.cartIsEmpty()"><h2>Your Cart</h2></div>
+                        <div *ngFor="let data of this.ss.getCartAsArray()">
+                                <div class="quantity-input">
+                                    
+                                    <div class="title">
+                                            <h4>{{data.item.title}}</h4>
+                                    </div>
+
+                                    <div class="input-box">
+                                        <div class="quantity-down" id="quantityDown" (click)="decrement(data)">
+                                            <i class="fal fa-minus"></i>
+                                        </div>
+                                        <input id="quantity" type="text" value="{{data.quantity}}" name="quantity">
+                                        <div class="quantity-up" id="quantityUP" (click)="increment(data)">
+                                            <i class="fal fa-plus"></i>
+                                        </div>
+                                    </div>
+                                    <div class="remove" id="remove" (click)="removeItem(data)">
+                                        <i class="fa fa-trash"></i>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    
+                    <form action="https://formspree.io/f/xayvdpjd" method="POST" style="padding-top: 20px;">
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="input-group mb-30">
@@ -54,9 +53,36 @@
                                     <span class="icon"><i class="far fa-phone"></i></span>
                                 </div>
                             </div>
+                            <div class="col-lg-4">
+                                <div class="input-group mb-30">
+                                    <input type="text" placeholder="Business Name" name="business_name" required>
+                                    <span class="icon"><i class="far fa-building"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="input-group mb-30">
+                                    <select name="Business_Type" id="type" required>
+                                        <option value="Business_Type">Type of Business</option>
+                                        <option value="Retailer">Retailer</option>
+                                        <option value="Wholesaler">Wholesaler</option>
+                                        <option value="Distributor">Distributor</option>
+                                        <option value="Institutional">Institutional</option>
+                                        <option value="Industrial">Industrial</option>
+                                        <option value="Other">Other</option>
+                                      </select>
+                                      <span class="icon"><i class="far fa-arrow-down"></i></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="input-group mb-30">
+                                    <input type="text" placeholder="Shipping Address" name="shipping_address" required>
+                                    <span class="icon"><i class="far fa-location"></i></span>
+                                </div>
+                            </div>
+                            
                             <div class="col-12">
                                 <div class="input-group textarea mb-30">
-                                    <textarea placeholder="Write Message" name="message"></textarea>
+                                    <textarea placeholder="Additional Information ... (Additional Shipping Addresses)" name="message"></textarea>
                                     <span class="icon"><i class="far fa-pencil"></i></span>
                                 </div>
                             </div>
@@ -65,36 +91,34 @@
                                     <textarea style="display: none" [value]="getProcessedCart()" name="cart"></textarea>
                                 </div>
                             </div>
-                            <div class="col-12 cartbox">
-                                <div *ngIf="this.ss.cartIsEmpty()"><h2>You have no items in your cart.</h2><br/></div>
-                                <div class="cartlabel" *ngIf="!this.ss.cartIsEmpty()"><h2>Your Cart</h2></div>
-                                <div *ngFor="let data of this.ss.getCartAsArray()">
-                                        <div class="quantity-input">
-                                            
-                                            <div class="title">
-                                                    <h4>{{data.item.title}}</h4>
-                                            </div>
-
-                                            <div class="input-box">
-                                                <div class="quantity-down" id="quantityDown" (click)="decrement(data)">
-                                                    <i class="fal fa-minus"></i>
-                                                </div>
-                                                <input id="quantity" type="text" value="{{data.quantity}}" name="quantity">
-                                                <div class="quantity-up" id="quantityUP" (click)="increment(data)">
-                                                    <i class="fal fa-plus"></i>
-                                                </div>
-                                            </div>
-                                            <div class="remove" id="remove" (click)="removeItem(data)">
-                                                <i class="fa fa-trash"></i>
-                                            </div>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="col-12 text-center">
-                                <button [disabled]="this.ss.cartIsEmpty()" type="submit" [class]="this.ss.cartIsEmpty() ? 'main-btn disabled' : 'main-btn'">Request Quote</button>
-                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button [disabled]="this.ss.cartIsEmpty()" type="submit" [class]="this.ss.cartIsEmpty() ? 'main-btn disabled' : 'main-btn'">Request Quote</button>
                         </div>
                     </form>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 order-2 order-lg-1">
+                        <div class="illustration-img text-center">
+                            <img src="assets/img/contact.jpg" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-10 order-1 order-lg-2">
+                        <div class="contact-info-content">
+                            <div class="section-title left-border mb-40">
+                                <span class="title-tag">Get In Touch</span>
+                            </div>
+                            <ul>
+                                <li class="phone">
+                                    <a href="tel:918-766-4603"><i class="far fa-phone"></i>(918) 766-4603</a>
+                                </li>
+                                <li><i class="far fa-envelope-open"></i><a href="email:Thunderbird@TruCleanzDistribution.com">Thunderbird@TruCleanzDistribution.com</a></li>
+                                <li><i class="far fa-map-marker-alt"></i>122 SW Frank Phillips Blvd, Rm. 219 <br>Bartlesville, OK 74003</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

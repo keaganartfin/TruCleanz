@@ -22,6 +22,7 @@
     "@ng-bootstrap/ng-bootstrap": "^9.0.2",
     "angular-crumbs": "^3.0.1",
     "bootstrap": "^4.6.0",
+    "caniuse-lite": "^1.0.30001332",
     "emailjs-com": "^2.6.4",
     "font-awesome": "^4.7.0",
     "imagesloaded": "^4.1.4",
